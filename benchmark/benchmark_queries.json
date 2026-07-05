@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What mechanism replaced recurrence and convolutions in the Transformer architecture?",
+    "expected_keywords": ["self-attention", "recurrence", "convolutions"],
+    "reference_answer": "The Transformer replaced recurrence and convolutions with self-attention, which lets every token weigh every other token."
+  },
+  {
+    "question": "What is the key architectural difference between GPT and BERT?",
+    "expected_keywords": ["decoder-only", "encoder", "bidirectional", "masked"],
+    "reference_answer": "GPT is decoder-only with masked self-attention for generation, while BERT is encoder-only with bidirectional attention for understanding tasks."
+  },
+  {
+    "question": "Why are positional encodings added to token embeddings?",
+    "expected_keywords": ["positional encodings", "order", "sinusoidal"],
+    "reference_answer": "Positional encodings are added because self-attention has no built-in notion of token order."
+  },
+  {
+    "question": "What does multi-head attention allow the model to do?",
+    "expected_keywords": ["multi-head", "parallel", "representation subspaces"],
+    "reference_answer": "Multi-head attention runs several attention operations in parallel so the model can attend to different representation subspaces at once."
+  },
+  {
+    "question": "What are the core collaboration hours for remote employees?",
+    "expected_keywords": ["10:00 AM", "4:00 PM", "core collaboration hours"],
+    "reference_answer": "Core collaboration hours are 10:00 AM to 4:00 PM in the employee's assigned office timezone."
+  },
+  {
+    "question": "How much is the home office stipend and what is the receipt deadline?",
+    "expected_keywords": ["$500", "60 days", "receipts"],
+    "reference_answer": "The stipend is a one-time $500 payment, and receipts must be submitted within 60 days of approval."
+  },
+  {
+    "question": "How many in-person team gatherings must remote employees attend per year?",
+    "expected_keywords": ["twice per year", "in-person", "travel expenses"],
+    "reference_answer": "Remote employees must attend in-person team gatherings at least twice per year, with travel expenses covered by the company."
+  },
+  {
+    "question": "Does remote work status affect promotion or compensation decisions?",
+    "expected_keywords": ["no bearing", "promotion", "compensation"],
+    "reference_answer": "No, remote work status has no bearing on promotion or compensation decisions; the same review criteria apply."
+  },
+  {
+    "question": "What security requirement must remote employees complete within 30 days?",
+    "expected_keywords": ["security awareness training", "30 days", "VPN"],
+    "reference_answer": "Remote employees must complete the annual security awareness training within 30 days of approval and use company VPN software."
+  },
+  {
+    "question": "What year was the paper that introduced the Transformer published?",
+    "expected_keywords": ["2017", "Attention Is All You Need"],
+    "reference_answer": "The Transformer was introduced in 2017 in the paper 'Attention Is All You Need'."
+  }
+]

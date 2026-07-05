@@ -1,0 +1,32 @@
+# Core RAG stack
+langchain>=0.2.11
+langchain-community>=0.2.10
+langchain-huggingface>=0.0.3
+langchain-text-splitters>=0.2.2
+
+# Vector store
+faiss-cpu>=1.8.0
+
+# Embeddings + Local LLM
+sentence-transformers>=2.7.0
+transformers>=4.42.0
+torch>=2.2.0
+accelerate>=0.31.0
+
+# PDF parsing
+pypdf>=4.2.0
+
+# App / UI
+streamlit>=1.36.0
+
+# Utilities
+numpy>=1.26.0
+python-dotenv>=1.0.1
+
+# PDF generation for sample data
+reportlab>=4.0
+
+# Local model serving via Ollama (primary backend for this project)
+# Requires Ollama installed separately: https://ollama.com/download
+# and the model pulled: `ollama pull llama3`
+langchain-ollama>=0.1.0
