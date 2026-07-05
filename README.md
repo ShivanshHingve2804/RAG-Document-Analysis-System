@@ -10,7 +10,7 @@ over PDF documents — no external API calls, fully self-contained.
 
 ## Demo
 
-[**▶ Watch the 60-second Demo Video**](docs/DEMO-RAG.mp4)
+[**▶ Watch the 60-second Demo Video**]([docs/DEMO-RAG.mp4](https://youtu.be/488gMtiZQfQ))
 
 ---
 
