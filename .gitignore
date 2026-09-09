@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Project-specific
+vector_index/
+*.faiss
+*.pkl
+data/pdfs/*.pdf
+!data/pdfs/remote_work_policy.pdf
+!data/pdfs/transformer_architecture.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
