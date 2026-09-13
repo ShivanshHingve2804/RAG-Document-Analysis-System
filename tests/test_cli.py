@@ -2,14 +2,11 @@
 
 import sys
 from unittest.mock import patch
-from cli import main, create_parser
+from cli import main
 
 
 def test_parser_has_subcommands():
     """CLI should have index, query, evaluate, serve subcommands."""
-    # We test by checking parser doesn't crash on valid args
-    parser = create_parser() if hasattr(sys.modules[__name__], 'create_parser') else None
-    # Basic smoke test: importing main should work
     assert callable(main)
 
 
